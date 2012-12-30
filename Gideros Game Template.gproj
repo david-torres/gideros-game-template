@@ -1,0 +1,19 @@
+<project>
+ <properties autorotation="0" fps="60" scaleMode="0" mouseToTouch="1" iosDevice="0" packageName="com.yourdomain.yourapp" logicalHeight="480" logicalWidth="320" mouseTouchOrder="0" retinaDisplay="0" touchToMouse="1" assetsOnly="0" orientation="0" architecture="0">
+  <imageScales/>
+ </properties>
+ <folder name="classes">
+  <file source="classes/scenemanager.lua"/>
+ </folder>
+ <file source="game_config.lua"/>
+ <folder name="scenes">
+  <file source="scenes/start.lua"/>
+  <file source="scenes/game.lua"/>
+  <file source="scenes/blank.lua"/>
+ </folder>
+ <folder name="fonts">
+  <file source="fonts/talldark.txt"/>
+  <file source="fonts/talldark.png"/>
+ </folder>
+ <file source="main.lua"/>
+</project>
